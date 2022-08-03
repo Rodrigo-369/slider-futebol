@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-image: url(../img/allianz-arena.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+/* #estadio {
+    filter: blur(10);
+} */
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+aside {
+    width: 85%;
+    height: 90vh;
+    background-color: #3a2579;
+    opacity: 0.9;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+}
+
+section aside main {
+    width: 20%;
+    height: 80%;
+}
+
+section aside main div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section aside main div ul {
+    width: 100%;
+}
+
+section aside main div ul li:nth-child(1){
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section aside main div .flag li:nth-child(2){
+    height: 120px;
+    background-image: url(../img/brasil.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+section aside main div .club li:nth-child(1){
+    height: 250px;
+    background-image: url(../img/corinthians.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+section aside main div button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
